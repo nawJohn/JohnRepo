@@ -39,10 +39,6 @@ function safeFilename(name) {
 
     await page.goto(article.url, { waitUntil: "domcontentloaded" });
 
-    const downloadPromise = page.waitForEvent("download", {
-      timeout: 120000
-    });
-
     // This selector may need minor adjustment for your Hudu version.
 const downloadButton = page.locator(`
   [title="Download"]:visible,
