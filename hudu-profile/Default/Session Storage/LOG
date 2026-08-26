@@ -1,3 +1,2 @@
-2026/08/25-13:21:26.628 b620 Reusing MANIFEST C:\GoOnGit\JohnRepo\hudu-profile\Default\Session Storage/MANIFEST-000001
-2026/08/25-13:21:26.630 b620 Recovering log #3
-2026/08/25-13:21:26.633 b620 Reusing old log C:\GoOnGit\JohnRepo\hudu-profile\Default\Session Storage/000003.log 
+2026/08/26-10:20:20.618 d210 Creating DB C:\GoOnGit\JohnRepo\hudu-profile\Default\Session Storage since it was missing.
+2026/08/26-10:20:20.653 d210 Reusing MANIFEST C:\GoOnGit\JohnRepo\hudu-profile\Default\Session Storage/MANIFEST-000001

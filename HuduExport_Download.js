@@ -39,6 +39,7 @@ function safeFilename(name) {
 
     await page.goto(article.url, { waitUntil: "domcontentloaded" });
 
+
     // This selector may need minor adjustment for your Hudu version.
 const downloadButton = page.locator(`
   [title="Download"]:visible,
@@ -55,12 +56,5 @@ const downloadButton = page.locator(`
 
 await downloadButton.click({ timeout: 30000 });
 
-const download = await downloadPromise;
-const filename = `${safeFilename(article.title)}.pdf`;
-
-await download.saveAs(path.join(DOWNLOAD_FOLDER, filename));
-    await page.waitForTimeout(1000);
   }
-
-  await context.close();
 })();
